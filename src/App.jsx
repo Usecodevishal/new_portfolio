@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Work from "./components/Work";
+import TopGridImage from "./components/TopGridImage";
 
 function App() {
   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
@@ -19,8 +21,9 @@ function App() {
   return (
     <>
       <Header />
+      <TopGridImage/>
       <Home ratio={ratio}/>
-      
+      <Work/>
 
     </>
   );
