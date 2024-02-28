@@ -6,6 +6,7 @@
 @import "top";
 @import "home";
 @import "work";
+@import "contact";
 * {
     margin:0;
     padding:0;
@@ -18,8 +19,9 @@ a{
     
 }
 body{
-    background-color: $color1;
+    // background-color: $color1;
     overflow-x: hidden;
+    background: linear-gradient(to right,$color7_1,$color7_2)!important;
 }
 
 .disableBtn{
