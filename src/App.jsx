@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Work from "./components/Work";
 import TopGridImage from "./components/TopGridImage";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
@@ -26,6 +27,7 @@ function App() {
       <Home ratio={ratio}/>
       <Work/>
       <Contact/>
+      <Footer/>
 
     </>
   );
