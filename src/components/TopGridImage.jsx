@@ -3,7 +3,7 @@ import React from 'react'
 const TopGridImage = () => {
   return (
     
-        <div className='container'>
+        <div className='container' id="gridIntro">
             <div className='top-left'>
                 <h1>My Portfolio</h1>
                 
