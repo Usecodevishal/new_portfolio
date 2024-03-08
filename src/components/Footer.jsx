@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
         </article>
       </aside>
-      <a href="#home">
+      <a href="#gridIntro">
         <AiOutlineArrowUp />
       </a>
     </footer>
